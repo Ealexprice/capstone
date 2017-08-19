@@ -2,6 +2,7 @@
 /*UNIVERSAL TAGS*/
 html{
  font-size:16px;
+ font-family: 'Open Sans', sans-serif;
 }
 body{
 
@@ -10,7 +11,7 @@ body{
 /*HEADER TAGS*/
 header{
   display: block;
-border: 3px solid red;
+
 }
 .logo{
   padding-left: 1.5rem;
@@ -22,7 +23,11 @@ border: 3px solid red;
   text-align:justify;
   height:4rem;
   width:100%;
-  border: 3px solid purple;
+
+}
+h1{
+  font-size:3rem;
+  font-weight: bold;
 }
 .logowords{
   display:inline-flex;
@@ -34,27 +39,43 @@ border: 3px solid red;
 .title1 h3{
   color: #625D5D;
 }
+.logowords ul{
+  text-align: right;
+}
+ul{
+  justify-content: space-around;
 
+}
+li{
+
+  justify-content: space-around;
+  padding:8px;
+}
 nav ul{
   list-style-type: none;
   display:inline-flex;
-  border: 5px solid blue;
+
+  text-align:center;
+}
+header nav {
+  text-align: right;
+  flex-grow: 1;
 }
 
 nav li{
   justify-content: space-around;
   align-items: center;
  padding:
-  border:4px solid green;
+
 }
 
 /*--------------------------------------------------*/
-/*TOP TAGS*/
+/*FIRST BOX*/
 top{
 
 }
- img{
-  width: 60%;
+ .learn img{
+  width: 100%;
 
   /*padding is vertical, horizontal*/
 
@@ -62,23 +83,22 @@ top{
 }
 .learn{
   width:100%;
-  height:30rem;
+  height:auto;
   background-color:#B1A9A9;
   border:3px solid skyblue;
   display: inline-flex;
   align-items: center;
-
-}/*
+}
 .box{
   display:block;
-}*/
+}
 .text{
   border:3px solid orange;
   text-align:left;
 }
 .start {
-width:inherit;
-height:2rem;
+ font-size:1.5rem;
+ font-weight: lighter;
 
   color:white;
   margin:0;
@@ -91,15 +111,90 @@ h1{
   color:#373737;
   font-family: 'Open Sans', sans-serif;
 }
-/*--------------------------------------------------*/
-/*MIDDLE TAGS*/
-middle{
-
+.words{
+  width: 65%;
+  height: auto;
 }
 /*--------------------------------------------------*/
-/*BOTTOM TAGS*/
-bottom{
+/*SECOND BOX*/
+.box2{
+  width:100%;
+  height:auto;
+  border:3px solid red;
+  display: inline-flex;
+  align-items: center;
+  text-align: left;
+}
+.dude img{
+  width:60%;
+  height:auto;
+  border: 4px solid purple;
+}
+.box2 img{
+  display:inline-flex;
+  width:35%;
+  height:auto;
+  border: 3px solid yellow;
+}
+.dude{
+  display:grid;
+}
+.orientation{
+display:inline-flex;
+align-items:center;
+  border: 3px solid magenta;
+}
+.campus{
+  align-items:center;
+  display:inline-flex;
+  border: 3px solid blue;
+}
+.guest{
+  align-items:center;
+  display:inline-flex;
+  border: 3px solid pink;
+  width:85%;
+  height:auto;
+}
 
+
+.info{
+  display:inline-block;
+  width:40%;
+  border: 3px solid green;
+}
+/*--------------------------------------------------*/
+/*THIRD BOX*/
+.pictures {
+  display: inline-block;
+  margin-bottom: 50px;
+  font-weight: bold;
+    background-color:#B1A9A9;
+}
+.pictures span{
+  font-size:3rem;
+  font-weight:bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.line1 {
+  display: flex;
+  padding: 10px;
+}
+.line2 {
+  display: inline-flex;
+  padding: 10px;
+}
+.image{
+   Height:auto;
+   margin:32px;
+   background-color:white;
+width:60%;
+border:3px solid limegreen;
+}
+/*--------------------------------------------------*/
+/*FOURTH BOX*/
+.box4{
+  display:inline-block;
 }
 /*--------------------------------------------------*/
 /*FOOTER*/
