@@ -12,18 +12,12 @@ font-family: 'Lora', serif;
 /*COMMON USE TAGES-------------------------------------
 border: px solid  ;
 ------------------------------------------------------*/
-body{
 
-}
 /*--------------------------------------------------*/
 /*HEADER TAGS*/
-header{
-  display: block;
-}
+
 .logo{
   padding-left:24px;
-  border: 3px solid  blue;
-  margin:0;
 }
 .logo img{
   width:48px;
@@ -32,7 +26,7 @@ header{
 #upper-bigbox .head{
   display:inline-flex;
   align-items:center;
-  text-align:justify;
+
   height:64px;
   width:100%;
   font-family: 'Open Sans', sans-serif;
@@ -42,7 +36,7 @@ header{
 
 .logowords{
   display:inline-flex;
-  justify-content: space-around;
+
 }
 .title2 h3{
   color: #A09898;
@@ -50,23 +44,18 @@ header{
 .title1 h3{
   color: #625D5D;
 }
-.logowords ul{
-  text-align: right;
-}
-ul{
-  justify-content: space-around;
 
-}
+
 li{
 
-  justify-content: space-around;
+
   padding:8px;
 }
 nav ul{
   list-style-type: none;
   display:inline-flex;
 
-  text-align:center;
+
 }
 header nav {
   text-align: right;
@@ -83,92 +72,58 @@ nav li{
 /*--------------------------------------------------*/
 /*FIRST BOX*/
 
- .learn .image{
-
-  height:auto;
-
+.learn .image{
  margin-left:24px;
  margin-top:32px;
  margin-bottom:32px;
-border:3px solid limegreen;
   /*padding is vertical, horizontal*/
-
-
 }
 h1{
   font-size:64px;
-  font-weight: bold;
-  align-items:center;
-font-family: 'Open Sans', sans-serif;
+  padding-left:16px;
+  margin:0;
 }
 .learn{
   width:100%;
-  height:auto;
   background-color:#B1A9A9;
-  border:3px solid skyblue;
   display: inline-flex;
   align-items: center;
 }
-.box{
-  display:block;
-}
+
 .text{
-  border:3px solid orange;
-  text-align:left;
   padding-left:24px;
   width:496px;
-height: auto;
 }
 .start {
- font-size:24px;
- font-weight: lighter;
-font-family: 'Lora', serif;
+  font-size:24px;
   color:white;
-  margin:0;
   background-color:#373737;
-align-items: center;
   text-align: center;
-border:3px solid darkblue;
+  padding-top:8px;
+  padding-bottom:8px;
+  margin-left:16px;
 }
 h1{
   color:#373737;
-  font-family: 'Open Sans', sans-serif;
-  word-wrap:normal;
 }
 .text .quote{
   font-size: 24px;
-  font-family: 'Open Sans', sans-serif;
-  border: 2px solid purple ;
+  text-align:left;
+  padding-left:16px;
 }
-.words{
-  width: 65%;
-  height: auto;
-}
+
 /*--------------------------------------------------*/
 /*SECOND BOX*/
 .box2{
   width:100%;
-  height:auto;
-  border:3px solid red;
   display: inline-flex;
-  align-items: center;
-  text-align: left;
-
-  justify-content:center;
-}
-.dude img{
-  width:100%;
-  height:auto;
-  padding:0;
-  border: 4px solid purple;
-
 }
 
 .dudewords p{
   font-size: 24px;
-font-family: 'Open Sans', sans-serif;
-width:1000px;
-height:150px;
+  padding-left:16px;
+  width:1000px;
+  padding-bottom: 32px;
 }
 .dudebox{
   width: 240px;
@@ -181,81 +136,76 @@ height:150px;
   height:auto;
   border: 3px solid yellow;
 }*/
-.dude{
-  display:grid;
-}
-.secondpic{
-  width:100%;
-  height:auto;
 
-margin-top:32px;
-margin-bottom:32px;
+.secondpic{
+  margin-left:24px;
+  margin-right:24px;
+  margin-top:32px;
+  margin-bottom:32px;
 }
 .orientation{
-display:inline-flex;
-align-items:center;
-
-
-  border: 3px solid magenta;
+  display:inline-flex;
+  align-items:center;
 }
 .orientation img{
-  display:inline-flex;
   width:35%;
-  height:auto;
   margin:16px;
 }
 
 .campus{
   align-items:center;
   display:inline-flex;
-  border: 3px solid blue;
 }
 .campus img{
-  display:inline-flex;
   width:35%;
   margin:16px;
-
   height:auto;
 }
 .guest{
+  word-wrap:normal;
   align-items:center;
   display:inline-flex;
-  border: 3px solid pink;
-background-color:#B1A9A9;
-
+  background-color:#B1A9A9;
 }
 .guest img{
-  display:inline-flex;
-  width:35%;
-  height:auto;
+  width:30%;
   margin:16px;
-
 }
-
-
+.words nav{
+  font-size: 24px;
+}
+.info p{
+  font-size: 24px;
+}
 .info{
   display:block;
   width:40%;
-  border: 3px solid green;
+  padding-top:16px;
+  margin-right:16px;
 }
 /*--------------------------------------------------*/
 /*THIRD BOX*/
-.pictures section{
-  text-align:center;
-  font-size:72px;
-  margin-top:32px;
-  padding:0;
-  font-family: 'Open Sans', sans-serif;
-color:#373737;
 
-}
 .pictures {
-  display: block;
-  height:auto;
+
+
 padding-bottom:16px;
   font-weight: bold;
 border: 3px solid purple;
     background-color:#B1A9A9;
+}
+.lineup{
+  border: 3px solid blue;
+
+}
+.pictures section{
+  text-align:center;
+  font-size:72px;
+  margin-top:16px;
+
+
+color:#373737;
+
 }
 /*.pictures span{
   font-size:32px;
@@ -274,15 +224,17 @@ width:200px;
 width:200px;
 }
 .images{
-text-align:left;
-   margin:32px;
+align-content:center;
+   margin:16px;
    background-color:white;
 
 
 }
+
 .words3 hgroup{
+
   font-size:32px;
-  font-family: 'Open Sans', sans-serif;
+
   padding-top:16px;
   padding-bottom:16px;
 }
@@ -295,13 +247,13 @@ text-align:left;
 .pictures p{
   font-size:24px;
   font-weight:lighter;
-  font-family: 'Open Sans', sans-serif;
-  word-wrap:normal;
+
+
 }
 .images span{
   font-size:24px;
   font-weight:lighter;
-  font-family: 'Open Sans', sans-serif;
+
 }/*
 .line1 .images{
   border: 5px solid skyblue;
@@ -319,14 +271,29 @@ text-align:left;
 /*--------------------------------------------------*/
 /*FOURTH BOX*/
 .box4{
-  display:block;
+display:inline-block;
   text-align: center;
-  border: 3px solid green;
+
+}
+
+.imagebox3words{
+  font-size:24px;
+  width:900px;
+
+  text-align:left;
+  padding-bottom:32px;
+  padding-top:24px;
+  padding-left:24px;
 }
 .box4 .lastbox{
-  display:inline-flex;
-  justify-content: space-around;
+
+width:100%;
+
   border: 3px solid blue;
+}
+.text{
+  width: 40%;
+
 }
 .imagebox5{
   align-items:center;
@@ -341,10 +308,13 @@ background-color:#B1A9A9;
   margin:16px;
 
 }
+.lastbox{
+  display:inline-flex;
+}
 .imagebox4{
   align-items:center;
   display:inline-flex;
-border: 3px solid red;
+
 }
 .imagebox4 img{
   display:inline-flex;
@@ -355,9 +325,12 @@ border: 3px solid red;
 }
 .box4 section{
   text-align:center;
-  font-size:80px;
-  margin-top:32px;
-  padding:0;
+  font-size:50px;
+  font-weight:bold;
+  padding-top:32px;
+  padding-bottom: 32px;
+
+  margin:0;
   font-family: 'Open Sans', sans-serif;
 color:#373737;
 border: 3px solid orange;
@@ -366,4 +339,12 @@ border: 3px solid orange;
 /*FOOTER*/
 footer{
 display:flex;
+font-size:24px;
+align-items:center;
+padding-left:24px;
+}
+.foot{
+  text-align: right;
+  flex-grow: 1;
+
 }
