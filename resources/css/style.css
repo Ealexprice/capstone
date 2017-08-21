@@ -84,7 +84,7 @@ nav li{
 /*FIRST BOX*/
 
  .learn .image{
-  width: 60%;
+
   height:auto;
 
  margin-left:1.5rem;
@@ -153,19 +153,22 @@ h1{
   display: inline-flex;
   align-items: center;
   text-align: left;
-  padding-left:32px;
+
+  justify-content:center;
 }
 .dude img{
-  width:80%;
+  width:100%;
   height:auto;
   padding:0;
   border: 4px solid purple;
 
 }
 
-p{
-  font-size: 1rem;
+.dudewords p{
+  font-size: 1.5rem;
 font-family: 'Open Sans', sans-serif;
+width:62.5rem;
+height:7rem;
 }
 .dudebox{
   width: 15rem;
@@ -184,8 +187,7 @@ font-family: 'Open Sans', sans-serif;
 .secondpic{
   width:100%;
   height:auto;
-margin-left:1.5rem;
-margin-right:1.5rem;
+
 margin-top:2rem;
 margin-bottom:2rem;
 }
@@ -232,7 +234,7 @@ background-color:#B1A9A9;
 
 
 .info{
-  display:inline-block;
+  display:block;
   width:40%;
   border: 3px solid green;
 }
@@ -240,8 +242,8 @@ background-color:#B1A9A9;
 /*THIRD BOX*/
 .pictures section{
   text-align:center;
-  font-size:5rem;
-  margin-top: 2rem;
+  font-size:4.5rem;
+  margin-top:2rem;
   padding:0;
   font-family: 'Open Sans', sans-serif;
 color:#373737;
@@ -250,9 +252,9 @@ color:#373737;
 .pictures {
   display: block;
   height:auto;
-  margin-bottom: 50px;
+padding-bottom:1rem;
   font-weight: bold;
-
+border: 3px solid purple;
     background-color:#B1A9A9;
 }
 /*.pictures span{
@@ -317,7 +319,14 @@ text-align:left;
 /*--------------------------------------------------*/
 /*FOURTH BOX*/
 .box4{
+  display:block;
+  text-align: center;
+  border: 3px solid green;
+}
+.box4 .lastbox{
   display:inline-flex;
+  justify-content: space-around;
+  border: 3px solid blue;
 }
 .imagebox5{
   align-items:center;
@@ -335,7 +344,7 @@ background-color:#B1A9A9;
 .imagebox4{
   align-items:center;
   display:inline-flex;
-
+border: 3px solid red;
 }
 .imagebox4 img{
   display:inline-flex;
@@ -344,8 +353,17 @@ background-color:#B1A9A9;
   margin:1rem;
 
 }
+.box4 section{
+  text-align:center;
+  font-size:5rem;
+  margin-top: 2rem;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
+color:#373737;
+border: 3px solid orange;
+}
 /*--------------------------------------------------*/
 /*FOOTER*/
 footer{
-
+display:flex;
 }
