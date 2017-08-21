@@ -21,22 +21,22 @@ header{
   display: block;
 }
 .logo{
-  padding-left: 1.5rem;
+  padding-left:24px;
   border: 3px solid  blue;
   margin:0;
 }
 .logo img{
-  width:3rem;
+  width:48px;
 }
 
 #upper-bigbox .head{
   display:inline-flex;
   align-items:center;
   text-align:justify;
-  height:4rem;
+  height:64px;
   width:100%;
   font-family: 'Open Sans', sans-serif;
-  font-size:1.5rem;
+  font-size:24px;
 
 }
 
@@ -60,7 +60,7 @@ ul{
 li{
 
   justify-content: space-around;
-  padding:.5rem;
+  padding:8px;
 }
 nav ul{
   list-style-type: none;
@@ -76,7 +76,7 @@ header nav {
 nav li{
   justify-content: space-around;
   align-items: center;
- padding:
+
 
 }
 
@@ -87,16 +87,16 @@ nav li{
 
   height:auto;
 
- margin-left:1.5rem;
- margin-top:2rem;
- margin-bottom:2rem;
+ margin-left:24px;
+ margin-top:32px;
+ margin-bottom:32px;
 border:3px solid limegreen;
   /*padding is vertical, horizontal*/
 
 
 }
 h1{
-  font-size:4rem;
+  font-size:64px;
   font-weight: bold;
   align-items:center;
 font-family: 'Open Sans', sans-serif;
@@ -115,12 +115,12 @@ font-family: 'Open Sans', sans-serif;
 .text{
   border:3px solid orange;
   text-align:left;
-  padding-left:1.5rem;
-  width:31rem;
+  padding-left:24px;
+  width:496px;
 height: auto;
 }
 .start {
- font-size:1.5rem;
+ font-size:24px;
  font-weight: lighter;
 font-family: 'Lora', serif;
   color:white;
@@ -136,7 +136,7 @@ h1{
   word-wrap:normal;
 }
 .text .quote{
-  font-size: 1.5rem;
+  font-size: 24px;
   font-family: 'Open Sans', sans-serif;
   border: 2px solid purple ;
 }
@@ -165,13 +165,13 @@ h1{
 }
 
 .dudewords p{
-  font-size: 1.5rem;
+  font-size: 24px;
 font-family: 'Open Sans', sans-serif;
-width:62.5rem;
-height:7rem;
+width:1000px;
+height:150px;
 }
 .dudebox{
-  width: 15rem;
+  width: 240px;
   height:auto;
 }
 
@@ -188,8 +188,8 @@ height:7rem;
   width:100%;
   height:auto;
 
-margin-top:2rem;
-margin-bottom:2rem;
+margin-top:32px;
+margin-bottom:32px;
 }
 .orientation{
 display:inline-flex;
@@ -202,7 +202,7 @@ align-items:center;
   display:inline-flex;
   width:35%;
   height:auto;
-  margin:1rem;
+  margin:16px;
 }
 
 .campus{
@@ -213,7 +213,7 @@ align-items:center;
 .campus img{
   display:inline-flex;
   width:35%;
-  margin:1rem;
+  margin:16px;
 
   height:auto;
 }
@@ -228,7 +228,7 @@ background-color:#B1A9A9;
   display:inline-flex;
   width:35%;
   height:auto;
-  margin:1rem;
+  margin:16px;
 
 }
 
@@ -242,8 +242,8 @@ background-color:#B1A9A9;
 /*THIRD BOX*/
 .pictures section{
   text-align:center;
-  font-size:4.5rem;
-  margin-top:2rem;
+  font-size:72px;
+  margin-top:32px;
   padding:0;
   font-family: 'Open Sans', sans-serif;
 color:#373737;
@@ -252,13 +252,13 @@ color:#373737;
 .pictures {
   display: block;
   height:auto;
-padding-bottom:1rem;
+padding-bottom:16px;
   font-weight: bold;
 border: 3px solid purple;
     background-color:#B1A9A9;
 }
 /*.pictures span{
-  font-size:2rem;
+  font-size:32px;
   font-weight:bold;
     font-family: 'Open Sans', sans-serif;
 }*/
@@ -266,40 +266,40 @@ border: 3px solid purple;
 .line1 {
   display:flex;
 
-width:12.5rem
+width:200px;
 }
 .line2 {
   display: inline-flex;
 
-width:12.5rem;
+width:200px;
 }
 .images{
 text-align:left;
-   margin:2rem;
+   margin:32px;
    background-color:white;
 
 
 }
 .words3 hgroup{
-  font-size:2rem;
+  font-size:32px;
   font-family: 'Open Sans', sans-serif;
-  padding-top:1rem;
-  padding-bottom:1rem;
+  padding-top:16px;
+  padding-bottom:16px;
 }
 .words3{
-  margin-left:2rem;
+  margin-left:32px;
 
 
-  padding:.5rem;
+  padding:8px;
 }
 .pictures p{
-  font-size:1.5rem;
+  font-size:24px;
   font-weight:lighter;
   font-family: 'Open Sans', sans-serif;
   word-wrap:normal;
 }
 .images span{
-  font-size:1.5rem;
+  font-size:24px;
   font-weight:lighter;
   font-family: 'Open Sans', sans-serif;
 }/*
@@ -309,12 +309,12 @@ text-align:left;
 }
 /*
 .line1 .images{
-  width:19rem;
-  height:12.5rem;
+  width:304px;
+  height:200px;
 }
 .line2 .images{
-  width:19rem;
-  height:12.5rem;
+  width:304px;
+  height:200px;
 }
 /*--------------------------------------------------*/
 /*FOURTH BOX*/
@@ -338,7 +338,7 @@ background-color:#B1A9A9;
   display:inline-flex;
   width:35%;
   height:auto;
-  margin:1rem;
+  margin:16px;
 
 }
 .imagebox4{
@@ -350,13 +350,13 @@ border: 3px solid red;
   display:inline-flex;
   width:35%;
   height:auto;
-  margin:1rem;
+  margin:16px;
 
 }
 .box4 section{
   text-align:center;
-  font-size:5rem;
-  margin-top: 2rem;
+  font-size:80px;
+  margin-top:32px;
   padding:0;
   font-family: 'Open Sans', sans-serif;
 color:#373737;
